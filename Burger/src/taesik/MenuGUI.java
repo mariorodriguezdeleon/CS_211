@@ -19,7 +19,7 @@ public class MenuGUI {
 
   MenuGUI(){};
  
-  MenuGUI(String myFranchise,String promotion,String b1NamePrice,String b1Topping,String b2NamePrice,String b2Topping,String b3NamePrice,String b3Topping){
+  public MenuGUI(String myFranchise, String promotion, String b1NamePrice, String b1Topping, String b2NamePrice, String b2Topping, String b3NamePrice, String b3Topping){
 //	 public void MenuGUI(String myFranchise,String b1Info,String b1Topping,String b2Info,String b2Topping,String b3Info,String b3Topping,String promotion ){
     
 	f=new JFrame(myFranchise);
@@ -72,9 +72,9 @@ public class MenuGUI {
 	CS211.setFont(new Font("Serif", Font.ITALIC, 16));
     
   // Images
-    image1 = new ImagePanel("Burger1.png");
-    image2 = new ImagePanel("Burger2.png");
-    image3 = new ImagePanel("Burger3.png"); 
+    image1 = new ImagePanel("burger1.png");
+    image2 = new ImagePanel("burger2.png");
+    image3 = new ImagePanel("burger3.png");
     image1.setBounds(50,120,150,100);
     image2.setBounds(50,250,150,100);
     image3.setBounds(50,380,150,100);
