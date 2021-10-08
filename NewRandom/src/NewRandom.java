@@ -1,15 +1,18 @@
 /* Mario Rodriguez, CS 210
  * 980384835
- * April 19, 2021
+ * October 8, 2021
  * Bellevue College
  * NewRandom class - Extends the Java Random class.  Overloads the nextInt() method and provides additional methods as
  * required for this assignment.
  * Requirements:
- *   - Include an overload methode for nextInt()
- *   - Include a nextEven method
- *   - Include a nextOdd method
- *   - Include a nextChar method
- *   - Include a nextC
+ *   Include
+ *   - overload methode for nextInt()
+ *   - nextEven()
+ *   - nextOdd()
+ *   - nextChar()
+ *   - nextChar(char from, char to)
+ *   - nextChar(char c, int i)
+ *   - Include a nextSpecialChar()
  */
 
 import java.util.Random;
@@ -58,19 +61,55 @@ public class NewRandom extends Random {
     // returns a random upper case "capital" character. n5
     public char nextChar(char from, char to) {
 
-        int n = nextInt(from, to);
+        int n;
 
-            if (n < to) {
-                return (char) n;
-            } else if (from > to) {
-                return (char) to;
-            } else {
-                return (char) n;
-            }
-
+        if (from < to) {
+            n = nextInt(from, to);
+            return (char) n;
+        } else if (from > to) {
+            n = nextInt(to, from);
+            return (char) n;
+        } else {
+            return from;
         }
 
-    // returns a random special character. n6
+    }
+
+    // returns a random upper case "capital" character. n6
+    public char nextChar(char c, int i) {
+
+        int lowerBound = 65;
+        int upperBound = 90;
+        int range = (int) c + i;
+        char n = 'c';
+
+        if (range == 0) {
+            return c;
+        } else if (range >= lowerBound && range <= upperBound ) {
+            n = nextChar((char) range, c);
+        } else {
+
+            if (range > upperBound || range < lowerBound) {
+                if (range > upperBound) {
+                    lowerBound = upperBound - ((upperBound - range) - 26);
+                    upperBound = c;
+                } else {
+                    upperBound = lowerBound + 26 - (lowerBound - range);
+                    lowerBound = c;
+                }
+            }
+
+            int numChar = nextInt(65, 90);
+            while (numChar > lowerBound && numChar < upperBound) {
+                numChar = nextInt(65 , 90);
+            }
+            n = (char) numChar;
+        }
+
+        return n;
+    }
+
+    // returns a random special character. n7
     public char nextSpecialChar(){
 
         int low = 33;

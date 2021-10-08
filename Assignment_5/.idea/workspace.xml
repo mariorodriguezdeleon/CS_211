@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c074cb15-af71-4a48-a29b-3ddb4fbc1d19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment_5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap211.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stacks/Stacks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myPracticeMay/myPracticeMay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/q3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/q5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayListVLinkedList/src/Assignment4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListVLinkedList/src/Assignment4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayListVLinkedList/src/taesik/Assignment4OUTLINE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListVLinkedList/src/taesik/Assignment4OUTLINE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Burger/src/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Burger/src/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Burger/src/q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Burger/src/q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stacks/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stacks/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stacks/src/Stack211.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stacks/src/Stack211.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myPracticeMay/src/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myPracticeMay/src/LinkedListTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/myHeap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Heap211.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1twxAOxXy0BLAzu7iYMobxu3sF2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myHeap" />
+      <module name="Assignment_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.myHeap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c074cb15-af71-4a48-a29b-3ddb4fbc1d19" name="Default Changelist" comment="" />
+      <created>1623693811374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623693811374</updated>
+    </task>
+    <servers />
+  </component>
+</project>
