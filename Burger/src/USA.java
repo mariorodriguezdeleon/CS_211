@@ -1,6 +1,6 @@
 /* Mario Rodriguez, CS 211
  * 980384835
- * May 5, 2021
+ * October 22, 2021
  * Bellevue College
  * MyBurgerTest class - Instantiates Burger211 objects for four different franchise locations - US and Mexico
  * Description:

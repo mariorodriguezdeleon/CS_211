@@ -1,6 +1,6 @@
 /* Mario Rodriguez, CS 211
  * 980384835
- * May 5, 2021
+ * October 22, 2021
  * Bellevue College
  * Burger211 Abstract Class -
  * Description:
@@ -11,6 +11,7 @@
  */
 import java.util.*;
 
+// BurgerInfo class. Helps create Burger objects
 class BurgerInfo {
     String name;
     String topping;
@@ -19,8 +20,9 @@ class BurgerInfo {
 
 public abstract class Burger211 {
 
-    private ArrayList<BurgerInfo> Burger = new ArrayList<>();
+    private ArrayList<BurgerInfo> Burger = new ArrayList<>(); // ArrayList of Burgers created with the BurgerInfo class
 
+    // Burger211 builder.  Instantiates 3 BurgerInfo objects and adds to the BurgerInfo ArrayList
     Burger211() {
 
         BurgerInfo b1 = new BurgerInfo();
@@ -43,24 +45,30 @@ public abstract class Burger211 {
 
     }
 
+    // returns the name of the requested burger index
     public String getBurgerName (int b) {
         return Burger.get(b).name;
     }
 
+    // returns the price for the requested burger index
     public double getBurgerPrice (int b) {
         return Burger.get(b).price;
     }
 
+    // returns the toppings for the requested burger index
     public String getBurgerTopping(int b) {
         return Burger.get(b).topping;
     }
 
+    // returns the size of the Burger Array list for the menu items to be build in the sub-classes
     public int getHowManyBurgers() {
         return  Burger.size();
     }
 
+    // Abstract method to be overriden by sub-classes
     abstract void Menu(String franchise);
 
+    // Abstract method to be overriden by sub-classes
     abstract void Promotion(Double discountRate, String promote);
 
 }

@@ -1,0 +1,17 @@
+[
+    {
+        "student": {
+            "firstName": "Emily",
+            "lastName": "Lincoln",
+            "hometown": "Bellevue",
+            "highschool": "Newport"
+        }
+    },
+    {
+        "student": {
+            "firstName": "James",
+            "lastName": "Schultz",
+            "hometown": "Yakima"        
+        }
+    }
+]
