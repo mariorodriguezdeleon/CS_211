@@ -66,7 +66,7 @@ public class MenuGUI {
     topping3.setForeground(Color.RED);
 	topping3.setFont(new Font("Serif", Font.ITALIC, 27));
 
-    CS211 = new JLabel("CS 211, Spring Quarter 2021");
+    CS211 = new JLabel("CS 211, Fall Quarter 2021");
     CS211.setBounds(W-30, 1, 200,40);
     CS211.setForeground(Color.BLACK);
 	CS211.setFont(new Font("Serif", Font.ITALIC, 16));

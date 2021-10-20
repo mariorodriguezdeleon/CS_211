@@ -9,8 +9,6 @@
  * The rate is based on the US dollar and converted to the appropriate rate requested by the local franchise.
  */
 
-package mario;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import java.io.BufferedReader;
@@ -19,7 +17,7 @@ import java.net.URL;
 
 public class ExchangeRate {
 
-    private String exchangeRate = "https://v6.exchangerate-api.com/v6/938306e524f8281f06872e60/latest/USD";
+    private String url_exchangeRate = "https://v6.exchangerate-api.com/v6/938306e524f8281f06872e60/latest/USD";
     Number countryExchange;
     String countryName;
 
@@ -31,7 +29,7 @@ public class ExchangeRate {
         StringBuilder builder = new StringBuilder();
 
         try {
-            URL url = new URL (exchangeRate);
+            URL url = new URL (url_exchangeRate);
             BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
 
             String str = "";
@@ -44,9 +42,9 @@ public class ExchangeRate {
             Object obj = jsonParser.parse(builder.toString());
             JSONObject jsonObject = ((JSONObject) obj);
             JSONObject conversion_rates = (JSONObject) jsonObject.get("conversion_rates");
-            Number mxnRate = (Number) conversion_rates.get(countryName);
+            Number countryConversion = (Number) conversion_rates.get(countryName);
 
-            countryExchange = mxnRate;
+            countryExchange = countryConversion;
         }
 
         catch (Exception ex) {
@@ -56,7 +54,7 @@ public class ExchangeRate {
     }
 
     public double getCountryExchange () {
-        return (double) countryExchange;
+        return countryExchange.doubleValue();
     }
 
 }

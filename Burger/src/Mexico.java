@@ -12,8 +12,6 @@
  */
 
 import java.text.DecimalFormat;
-
-import mario.ExchangeRate;
 import taesik.MenuGUI;
 
 public class Mexico extends Burger211{
@@ -24,9 +22,6 @@ public class Mexico extends Burger211{
 
     private String [] burgerNamePrice = new String[getHowManyBurgers()];
     String pro = "";
-
-    public Mexico() throws Exception {
-    }
 
     @Override
     public void Promotion (Double discountRate, String promote) {

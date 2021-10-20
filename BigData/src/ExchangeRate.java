@@ -38,9 +38,7 @@ public class ExchangeRate {
 
             System.out.println(mxnRate);
 
-        }
-
-        catch (Exception ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
 

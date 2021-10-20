@@ -13,14 +13,13 @@
 
 import java.text.DecimalFormat;
 
-import mario.ExchangeRate;
 import taesik.MenuGUI;
 
 public class USA extends Burger211 {
 
     private double discountRate = 0;
 
-    ExchangeRate countryExchange = new ExchangeRate("MXN");
+    ExchangeRate countryExchange = new ExchangeRate("USD");
     double exchangeRate = countryExchange.getCountryExchange();
 
     private String [] burgerNamePrice = new String[getHowManyBurgers()];
@@ -30,6 +29,11 @@ public class USA extends Burger211 {
     public void Promotion(Double discountRate, String promote) {
         this.discountRate = discountRate;
         pro = promote;
+    }
+
+    @Override
+    public double getBurgerPrice (int b) {
+        return super.getBurgerPrice(b) * exchangeRate;
     }
 
     @Override
