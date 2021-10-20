@@ -15,7 +15,7 @@
 
 public class MyBurger211Test {
 
-    public static void main (String[] args) {
+    public static void main (String[] args) throws Exception {
 
         // US franchises - Seattle and Bellevue
         Burger211 Bellevue = new USA();
@@ -23,6 +23,7 @@ public class MyBurger211Test {
         Bellevue.Menu("Bellevue");
 
         Burger211 Seattle = new USA();
+        Seattle.Promotion(.5, "50% Off - If you're vaccinated");
         Seattle.Menu("Seattle");
 
         // Mexico franchises - Mexico City and Guadalajara

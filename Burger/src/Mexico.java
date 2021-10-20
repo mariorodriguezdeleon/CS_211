@@ -1,24 +1,32 @@
 /* Mario Rodriguez, CS 211
  * 980384835
- * May 5, 2021
+ * October 22, 2021;
  * Bellevue College
  * MyBurgerTest class - Instantiates Burger211 objects for four different franchise locations - US and Mexico
  * Description:
  * The Mexico.java class is used to instantiate a franchise object for Mexico locations.
  * This class overrides the abstract classes defined by the Burger211 abstract class, and two (2) of the concrete classes.
  * This class also contains variables to capture discount rate, promotion banner and an array for the number of burgers
- * defined by the Burger() in the abstract class, and the exchange rate for the country.
+ * defined by the Burger() in the abstract class. The exchange rate is calculated in real-time
+ * with the use of the ExchangeRate class.
  */
 
 import java.text.DecimalFormat;
+
+import mario.ExchangeRate;
 import taesik.MenuGUI;
 
-public class Mexico extends Burger211 {
+public class Mexico extends Burger211{
 
     private double discountRate = 0;
-    static double exchangeRate = 20.22;
+    ExchangeRate countryExchange = new ExchangeRate("MXN");
+    double exchangeRate = countryExchange.getCountryExchange();
+
     private String [] burgerNamePrice = new String[getHowManyBurgers()];
     String pro = "";
+
+    public Mexico() throws Exception {
+    }
 
     @Override
     public void Promotion (Double discountRate, String promote) {
