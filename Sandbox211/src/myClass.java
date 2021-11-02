@@ -5,8 +5,10 @@ public class myClass {
         A a = new A();
         A b = new B();
 
-        System.out.println(a.i);
+        a.i = b.i;
+
         System.out.println(b.i);
+        System.out.println(b.mult());
     }
 
 

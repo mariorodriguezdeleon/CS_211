@@ -21,6 +21,7 @@ public class Quiz5 {
 
         HashSet<String> temp = new HashSet<>();
         HashSet<String> temp2 = new HashSet<>();
+        HashSet<String> temp3 = new HashSet<>();
 
         CS210.add("Bill");
         CS210.add("Eva");
@@ -40,11 +41,21 @@ public class Quiz5 {
         temp.retainAll(CS212);
 
         temp2 = (HashSet) CS210.clone();
-        temp2.addAll(CS211);
+        temp2.retainAll(CS211);
         temp2.removeAll(CS212);
+
+        temp3 = (HashSet) CS210.clone();
+        temp3.addAll(CS211);
+        temp3.addAll(CS212);
+
 
         System.out.println("CS210+CS211+CS212: " + temp);
         System.out.println("CS210+CS211 NOT CS212: " + temp2);
+        System.out.println("At least one class: " + temp3);
+
+    }
+
+    public static void atLeastOneClass() {
 
     }
 }

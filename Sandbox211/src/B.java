@@ -1,11 +1,13 @@
 public class B extends A {
 
-    int i = 1;
+    int i = 3;
 
     B() {
-        super.i++;
-        this.i++;
-        System.out.println("B");
+        this.i = super.i * 2;
+    }
+
+    public int mult() {
+        return super.i * this.i;
     }
 
 }
