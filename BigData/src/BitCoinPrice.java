@@ -26,9 +26,12 @@ public class BitCoinPrice {
                 builder.append(str + "\n");
             }
 
+            System.out.println(builder);
+
             JSONParser jsonParser = new JSONParser();
             Object obj = jsonParser.parse(builder.toString());
             JSONObject jsonObject = ((JSONObject) obj);
+            System.out.println(obj);
             JSONObject bpi = (JSONObject) jsonObject.get("bpi");
             JSONObject usd = (JSONObject) bpi.get("USD");
 
