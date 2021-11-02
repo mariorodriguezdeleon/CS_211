@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="009a85d6-838c-42b3-85ce-b18c008cbec0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BigData/BigData.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Burger/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Burger/src/Burger211.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Burger/src/Burger211.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Burger/src/USA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Burger/src/USA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3_BigDataWeather/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3_BigDataWeather/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3_BigDataWeather/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3_BigDataWeather/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3_BigDataWeather/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3_BigDataWeather/Assignment3_BigDataWeather.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3_BigDataWeather/src/WeatherAPI.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
