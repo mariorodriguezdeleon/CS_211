@@ -25,8 +25,11 @@ public class ExchangeRate {
                 builder.append(str + "\n");
             }
 
+            System.out.println(builder);
+
             JSONParser jsonParser = new JSONParser();
             Object obj = jsonParser.parse(builder.toString());
+            System.out.println("This is the object: " + obj);
             JSONObject jsonObject = ((JSONObject) obj);
             JSONObject conversion_rates = (JSONObject) jsonObject.get("conversion_rates");
 
