@@ -1,10 +1,13 @@
 public class A {
 
-    int i = 2;
+    int i = 1;
 
     A() {
         i++;
-        System.out.println("A");
+    }
+
+    public int mult() {
+        return i*i;
     }
 
 }
