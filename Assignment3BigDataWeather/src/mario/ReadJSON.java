@@ -18,7 +18,7 @@ public class ReadJSON {
     static String cityName = "seattle";
     static String apiKey = "fb7d7af4019ac94fbf5e8338f9f77814";
 
-    private  static String baseURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&" + "appid=" + apiKey;
+    private  static String baseURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&units=imperial&" + "appid=" + apiKey;
 
     public static void main (String[] args) throws Exception {
 
