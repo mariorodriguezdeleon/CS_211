@@ -11,8 +11,6 @@ import org.json.simple.parser.JSONParser;
 
 //Need to adapt this code to target the weather API for ten countries
 
-
-
 public class ReadJSON {
 
     static String cityName = "seattle";
