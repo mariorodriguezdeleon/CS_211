@@ -23,7 +23,7 @@ public class q5 {
         //some code here
         ArrayList<String> students = new ArrayList<>();
 
-        for (CS210.size())
+        for (CS210.size();
     }
 
     public static void main (String[] args) {

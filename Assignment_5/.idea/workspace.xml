@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c074cb15-af71-4a48-a29b-3ddb4fbc1d19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment_5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heap211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stacks/Stacks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myPracticeMay/myPracticeMay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/q2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/out/production/Assignment3BigDataWeather/WeatherAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/out/production/Assignment3BigDataWeather/WeatherTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/src/WeatherAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/src/WeatherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Question19/Question19.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/q2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/q3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/q5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListVLinkedList/src/Assignment4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListVLinkedList/src/Assignment4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrayListVLinkedList/src/taesik/Assignment4OUTLINE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayListVLinkedList/src/taesik/Assignment4OUTLINE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Burger/src/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Burger/src/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Burger/src/q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Burger/src/q2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stacks/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stacks/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stacks/src/Stack211.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stacks/src/Stack211.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myPracticeMay/src/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../myPracticeMay/src/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3BigDataWeather/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3BigDataWeather/out/production/Assignment3BigDataWeather/mario/ReadJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/out/production/Assignment3BigDataWeather/mario/ReadJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment3BigDataWeather/src/mario/ReadJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/src/mario/ReadJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigData/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BigData/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BigData/BigData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BigData/BigData.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
