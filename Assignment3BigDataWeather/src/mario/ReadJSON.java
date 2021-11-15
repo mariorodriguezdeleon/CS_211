@@ -1,10 +1,8 @@
 package mario;
-
 import java.io.*;
 import java.net.URL;
 import java.text.NumberFormat;
 import java.util.Locale;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
@@ -45,13 +43,14 @@ public class ReadJSON {
             System.out.println("This is the object: " + obj);
             JSONObject jsonObject = ((JSONObject) obj);
             JSONObject city_weather_data = (JSONObject) jsonObject.get("main");
-//            JSONObject main = (JSONObject) city_weather_data.get("temp");
 
-            System.out.println(city_weather_data);
+            System.out.println();
+            System.out.println("This is the data: " + city_weather_data);
             System.out.println();
 
             NumberFormat format = NumberFormat.getInstance(Locale.getDefault());
-            double number = (double) city_weather_data.get("temp");
+            Number number = format.parse(String.valueOf(city_weather_data.get("temp")));
+//            double number = (double) city_weather_data.get("temp");
 //            double price = (double) number;
             System.out.println(number);
 //
