@@ -16,9 +16,12 @@ public class Main {
     static HashMap<Integer, String> errorMessage = new HashMap<>();
     static HashMap<Character, Character> pair = new HashMap<>();
     static HashMap<Character, Integer> precedence = new HashMap<>();
-    static String[] Statement = {"( 1 + 3 } * ( 2 - 1 )", "( 1 + 3 ) * ( 2 * 1 )"};
+
+    static String[] Statement = {"( 1 + 3 )"};
+
 
     public static void main (String[] args) {
+
         //initializes the error methods and pairs
         loadErrorMessages();
         loadPair();
@@ -26,7 +29,7 @@ public class Main {
         setPrecedence();
 
         //Expression Evaluation
-        for (int i = 0; i < Statement.length; i++) { //traversal of the tokens in the statement string array
+        for (int i = 1; i < Statement.length; i++) { //traversal of the tokens in the statement string array
 
             String expression = Statement[i]; //creates variable for the first token in the statement
             Stack211<Character> st = new Stack211<>(); //creates stack from generic stack class
@@ -72,6 +75,7 @@ public class Main {
     }
 
     public static Boolean testBrackets(char ch, int j, Stack211<Character> st) {
+
         char popC = st.pop();
 
         if (!st.isEmpty()) {

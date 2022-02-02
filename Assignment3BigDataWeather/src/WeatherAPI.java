@@ -62,7 +62,8 @@ public class WeatherAPI {
 
             //used to filter out the different available JSON obj
 
-            if(category == "Temperature" || category == "Pressure" || category == "Humidity") {
+            if(category == "Temperature" || category == "Pressure" || category == "Humidity")
+            {
 
                 //chose main values
                 JSONObject city_weather_data = (JSONObject) jsonObject.get("main");

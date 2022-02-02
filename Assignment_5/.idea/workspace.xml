@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c074cb15-af71-4a48-a29b-3ddb4fbc1d19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/out/production/Assignment3BigDataWeather/WeatherAPI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/out/production/Assignment3BigDataWeather/WeatherTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/src/WeatherAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/src/WeatherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Question19/Question19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/q2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/out/production/2020_Practice_Exam/q3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2020_Practice_Exam/src/q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2020_Practice_Exam/src/q5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3BigDataWeather/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3BigDataWeather/out/production/Assignment3BigDataWeather/mario/ReadJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/out/production/Assignment3BigDataWeather/mario/ReadJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment3BigDataWeather/src/mario/ReadJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment3BigDataWeather/src/mario/ReadJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BigData/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BigData/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BigData/BigData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BigData/BigData.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c074cb15-af71-4a48-a29b-3ddb4fbc1d19" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment3BigDataWeather" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
