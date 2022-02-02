@@ -12,8 +12,6 @@ public class ArrayListTest {
 
         HashMap<Integer, Integer> hm = new HashMap<Integer,Integer>();
 
-
-
         for (int i= 0; i<2; i++) {
 
             al.add(i);
@@ -29,8 +27,6 @@ public class ArrayListTest {
             hm.put(hm.get(i), hm.get(i+1));
 
         }
-
-
 
         System.out.println(al);
 
